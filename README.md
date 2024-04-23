@@ -7,3 +7,9 @@ Here, we tried to simulate delay process.
 ![RabbitMQ Screenshot](RabbitMQDelaySimulation.png "RabbitMQ")
 
 Remember that everytime we `cargo run` Publisher, we hit it with 5 messages. These are the number being processed as you can see on the screenshot.
+
+![RabbitMQ Screenshot](RabbitGoesDownFasterSubscriber.png "RabbitMQ")
+
+![RabbitMQ Screenshot](RabbitMQGoesDownFaster.png "RabbitMQ")
+
+We run multiple instance of Subscriber. That make our process goes down faster.
