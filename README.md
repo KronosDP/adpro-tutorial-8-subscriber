@@ -13,3 +13,6 @@ Remember that everytime we `cargo run` Publisher, we hit it with 5 messages. The
 ![RabbitMQ Screenshot](RabbitMQGoesDownFaster.png "RabbitMQ")
 
 We run multiple instance of Subscriber. That make our process goes down faster.
+
+There are few things that can be improved from the code. Firstly, we can use loops to simulate more
+publish_events. Also, I think we can try to multithread subscriber to make subscriber can handle more publisher.
